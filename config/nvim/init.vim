@@ -1,9 +1,9 @@
+
 " NEOVIM CONFIG - MODERN FUNCTIONALITY WITH SHORTCUTS (v0.9.5)
 " ===========================
+let g:java_highlight_markdown = 0
+let g:polyglot_disabled = ['java', 'markdown', 'auto-pairs']
 call plug#begin('~/.local/share/nvim/plugged')
-
-" Wakatime
-Plug 'wakatime/vim-wakatime'
 
 " Fuzzy Finder
 Plug 'junegunn/fzf', { 'do': './install --all' }
@@ -22,9 +22,6 @@ Plug 'windwp/nvim-autopairs'
 " Comment/uncomment lines easily
 Plug 'tpope/vim-commentary'
 
-" Auto-completion & language server
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 " Treesitter for syntax highlighting
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
@@ -37,19 +34,21 @@ Plug 'yetone/avante.nvim'
 " Colorschemes
 Plug 'folke/tokyonight.nvim'
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
-
-" emmet
 Plug 'mattn/emmet-vim'
 
-" LSP support
-Plug 'neovim/nvim-lspconfig'
+" LSP Support
+Plug 'neovim/nvim-lspconfig'             " Core LSP plugin
+Plug 'williamboman/mason.nvim'           " Installs servers (like Java's jdtls)
+Plug 'williamboman/mason-lspconfig.nvim' " Connects Mason to lspconfig
 
+" Autocompletion (Keep these if you have them, add if missing)
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'L3MON4D3/LuaSnip'
 " Autocompletion
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 
-" Codesnap
-Plug 'mistricky/codesnap.nvim', { 'do': 'make' }
 " Optional: snippets
 Plug 'L3MON4D3/LuaSnip'
 call plug#end()
@@ -99,7 +98,7 @@ nnoremap \z :Files<CR>
 
 " Toggle comments for selected lines
 vnoremap <leader>c gc
-vnoremap <A-S-s> :CodeSnapSave<CR>
+
 " Map Alt+v to Visual Block mode
 nnoremap <M-v> <C-v>
 
@@ -131,16 +130,22 @@ nnoremap <M-e> $
 " Close current buffer with Shift+Esc
 nnoremap <S-Esc> :bd<CR>
 
+autocmd FileType cpp setlocal shiftwidth=2 softtabstop=2 tabstop=2 expandtab
 " --- Load Lua plugin configs ---
 lua require('plugins.autopairs')
 lua require('plugins.treesitter')
-
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   highlight = {
     enable = true,
-    disable = { "c", "cpp" },
+    ensure_installed = { "java", "markdown", "markdown_inline" },
+		disable = { "c", "cpp"},
+		additional_vim_regex_highlighting = false,
   },
+	indent = {
+    enable = true, 
+    disable = { "cpp", "c" } -- Disable Treesitter indent for C++ if it's causing the 4-space jump
+  }
 }
 EOF
 
@@ -226,92 +231,91 @@ EOF
 " ========================
 
 lua << EOF
-local lspconfig = require('lspconfig')
-local cmp = require'cmp'
+-- 1. Setup Mason (MUST RUN FIRST)
+require("mason").setup()
+require("mason-lspconfig").setup({
+    ensure_installed = { "jdtls", "pyright", "gopls", "clangd" },
+    automatic_installation = true,
+})
 
--- Common on_attach function
-local on_attach = function(client, bufnr)
-  local opts = { noremap=true, silent=true, buffer=bufnr }
-  vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
-  vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
-  vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, opts)
-  vim.keymap.set('n', 'gr', vim.lsp.buf.references, opts)
-end
-
--- ========================
--- Setup LSP servers
--- ========================
-
--- Go
-lspconfig.gopls.setup{
-  on_attach = on_attach,
-  flags = { debounce_text_changes = 150 },
-  settings = {
-    gopls = {
-      analyses = { unusedparams = true },
-      staticcheck = true,
-    },
-  },
-}
-
--- Python
-lspconfig.pyright.setup{
-  on_attach = on_attach,
-  flags = { debounce_text_changes = 150 },
-}
-
--- C/C++
-lspconfig.clangd.setup{
-  on_attach = on_attach,
-  flags = { debounce_text_changes = 150 },
-}
-
--- ========================
--- nvim-cmp setup
--- ========================
+-- 2. Setup Completion (nvim-cmp)
+local cmp = require('cmp')
+local luasnip = require('luasnip')
 
 cmp.setup({
-  snippet = {
-    expand = function(args)
-      vim.fn["vsnip#anonymous"](args.body)  -- or use luasnip
-    end,
-  },
-  mapping = {
-    ['<C-Space>'] = cmp.mapping.complete(),              -- manual trigger
-    ['<Tab>'] = cmp.mapping(function(fallback)
-      if cmp.visible() then
-        cmp.select_next_item()
-      else
-        fallback()
-      end
-    end, {'i','s'}),
-    ['<S-Tab>'] = cmp.mapping(function(fallback)
-      if cmp.visible() then
-        cmp.select_prev_item()
-      else
-        fallback()
-      end
-    end, {'i','s'}),
-  },
-  sources = {
-    { name = 'nvim_lsp' },
-  },
-  completion = { autocomplete = { cmp.TriggerEvent.TextChanged } }, -- auto suggestions
+    snippet = {
+        expand = function(args)
+            luasnip.lsp_expand(args.body)
+        end,
+    },
+    mapping = cmp.mapping.preset.insert({
+        ['<C-b>'] = cmp.mapping.scroll_docs(-4),
+        ['<C-f>'] = cmp.mapping.scroll_docs(4),
+        ['<C-Space>'] = cmp.mapping.complete(),
+        ['<CR>'] = cmp.mapping.confirm({ select = true }),
+        ['<Tab>'] = cmp.mapping.select_next_item(),
+        ['<S-Tab>'] = cmp.mapping.select_prev_item(),
+    }),
+    sources = cmp.config.sources({
+        { name = 'nvim_lsp' },
+        { name = 'luasnip' },
+    })
 })
-EOF
 
-lua << EOF
-require("codesnap").setup({
-  save_path = "~/Pictures/Codesnap",
-	bg_theme = "grape",
-  code_font_family = "JetBrainsMono Nerd Font",
-  has_breadcrumbs = true,
-  has_line_number = true,
-  mac_window_bar = true,
-  rounded_corner = true,
-  frame = true,
-  border_color = "#7aa2f7",
-  watermark = "",
+-- 3. Setup LSP Servers
+local lspconfig = require('lspconfig')
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
+local on_attach = function(client, bufnr)
+    local opts = { noremap=true, silent=true, buffer=bufnr }
+    vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
+    vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
+    vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, opts)
+    vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, opts)
+    vim.keymap.set('n', 'gr', vim.lsp.buf.references, opts)
+end
+
+-- Python
+lspconfig.pyright.setup({ capabilities = capabilities, on_attach = on_attach })
+
+-- C++
+require('lspconfig').clangd.setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+  init_options = {
+    -- This tells clangd to use 2 spaces if it doesn't find a .clang-format file
+    fallbackFlags = { '--indent-width=2', '--fallback-style=Google' }
+  }
+})
+
+-- Go
+lspconfig.gopls.setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    settings = {
+        gopls = {
+            analyses = { unusedparams = true },
+            staticcheck = true,
+        },
+    },
+})
+
+-- === JAVA FIX (JDTLS) ===
+-- Get the current project name to create a unique workspace folder
+local project_name = vim.fn.fnamemodify(vim.fn.getcwd(), ':p:h:t')
+local workspace_dir = vim.fn.stdpath('data') .. '/jdtls-workspace/' .. project_name
+local mason_bin = vim.fn.stdpath("data") .. "/mason/bin/jdtls"
+
+lspconfig.jdtls.setup({
+    -- Important: We pass the -data flag so JDTLS knows where to save project info
+    cmd = { mason_bin, "-data", workspace_dir },
+    root_dir = lspconfig.util.root_pattern(".git", "mvnw", "gradlew", "pom.xml", "build.gradle"),
+    capabilities = capabilities,
+    on_attach = on_attach,
+    settings = {
+        java = {
+            errors = { incompleteClasspath = { severity = "ignore" } },
+        }
+    }
 })
 EOF
-autocmd VimEnter * call feedkeys("\<CR>", 'n')
