@@ -2,7 +2,7 @@
 " NEOVIM CONFIG - MODERN FUNCTIONALITY WITH SHORTCUTS (v0.9.5)
 " ===========================
 let g:java_highlight_markdown = 0
-let g:polyglot_disabled = ['java', 'markdown', 'auto-pairs']
+let g:polyglot_disabled = ['java','c++','cpp','c', 'markdown', 'auto-pairs']
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Fuzzy Finder
@@ -11,9 +11,6 @@ Plug 'junegunn/fzf.vim'
 
 " File tree
 Plug 'preservim/nerdtree'
-
-" Better syntax highlighting
-Plug 'sheerun/vim-polyglot'
 
 " Auto pairs / braces
 Plug 'jiangmiao/auto-pairs'
@@ -46,7 +43,6 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'L3MON4D3/LuaSnip'
 " Autocompletion
-Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 
 " Optional: snippets
@@ -279,14 +275,7 @@ end
 lspconfig.pyright.setup({ capabilities = capabilities, on_attach = on_attach })
 
 -- C++
-require('lspconfig').clangd.setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-  init_options = {
-    -- This tells clangd to use 2 spaces if it doesn't find a .clang-format file
-    fallbackFlags = { '--indent-width=2', '--fallback-style=Google' }
-  }
-})
+lspconfig.clangd.setup({ capabilities = capabilities, on_attach = on_attach })
 
 -- Go
 lspconfig.gopls.setup({
