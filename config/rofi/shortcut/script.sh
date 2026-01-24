@@ -9,9 +9,9 @@ choices=$(cat <<EOF
 <F12>             ⟹ Fullscreen Off
 ⌘ + E             ⟹ Open Yazi File Manager
 ⌘ + P             ⟹ Open Power Menu
-⌘ + D             ⟹ Rofi App Launcher
+⌘ + [⎵]           ⟹ Rofi App Launcher
 ⌘ + ⇧ + R         ⟹ Wallpaper Picker
-⌥ + ⇧ + S         ⟹ Hyprshot
+⌘ + ⇧ + S         ⟹ Hyprshot
 ⌃ + ⇧ + Tab       ⟹ Task Manager
 ⌘ + V             ⟹ Clipboard Launcher
 EOF

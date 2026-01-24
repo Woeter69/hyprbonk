@@ -4,7 +4,7 @@ TERM = "xterm-256color"
 [window]
 decorations = "full"
 startup_mode = "Windowed"
-opacity = 0.70
+opacity = 0.90
 blur = true
 dynamic_padding = true
 dimensions = { columns = 100, lines = 30 }

@@ -2,7 +2,10 @@
 " NEOVIM CONFIG - MODERN FUNCTIONALITY WITH SHORTCUTS (v0.9.5)
 " ===========================
 let g:java_highlight_markdown = 0
+autocmd VimEnter * call feedkeys("\<CR>")
 let g:polyglot_disabled = ['java','c++','cpp','c', 'markdown', 'auto-pairs']
+" <CR> stands for Carriage Return (Enter)
+nnoremap <key> :Command<CR>
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Fuzzy Finder
@@ -15,7 +18,7 @@ Plug 'preservim/nerdtree'
 " Auto pairs / braces
 Plug 'jiangmiao/auto-pairs'
 Plug 'windwp/nvim-autopairs'
-
+Plug 'andweeb/presence.nvim'
 " Comment/uncomment lines easily
 Plug 'tpope/vim-commentary'
 
@@ -129,54 +132,26 @@ nnoremap <S-Esc> :bd<CR>
 autocmd FileType cpp setlocal shiftwidth=2 softtabstop=2 tabstop=2 expandtab
 " --- Load Lua plugin configs ---
 lua require('plugins.autopairs')
-lua require('plugins.treesitter')
 lua << EOF
-require'nvim-treesitter.configs'.setup {
+-- Safely try to load treesitter. If it fails, do not crash Neovim.
+local status_ok, configs = pcall(require, "nvim-treesitter.configs")
+if not status_ok then
+    return -- Stop execution here if treesitter is missing
+end
+
+configs.setup {
   highlight = {
     enable = true,
     ensure_installed = { "java", "markdown", "markdown_inline" },
-		disable = { "c", "cpp"},
-		additional_vim_regex_highlighting = false,
+    disable = { "c", "cpp"},
+    additional_vim_regex_highlighting = false,
   },
-	indent = {
+  indent = {
     enable = true, 
-    disable = { "cpp", "c" } -- Disable Treesitter indent for C++ if it's causing the 4-space jump
+    disable = { "cpp", "c" }
   }
 }
 EOF
-
-
-" bootstrap packer if needed
-lua << EOF
-local fn = vim.fn
-local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
-if fn.empty(fn.glob(install_path)) > 0 then
-  fn.system({'git', 'clone', '--depth', '1',
-    'https://github.com/wbthomason/packer.nvim', install_path})
-  vim.cmd [[packadd packer.nvim]]
-end
-EOF
-
-" plugin setup
-lua << EOF
-require('packer').startup(function(use)
-  use 'wbthomason/packer.nvim'
-  use {
-    'andweeb/presence.nvim',
-    config = function()
-      require("presence"):setup({
-        auto_update = true,
-        neovim_image_text = "Editing with Neovim",
-        main_image = "neovim",
-        buttons = false,
-      })
-    end
-  }
-end)
-EOF
-
-" Disable default keybindings if you want
-let g:codeium_disable_bindings = 1
 
 " Accept full suggestion with Ctrl+F
 imap <script><silent><nowait><expr> <C-f> codeium#Accept()

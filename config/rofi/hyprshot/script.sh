@@ -8,7 +8,7 @@
 # If you pictures folder is named differently than "Pictures", just replace "Pictures" with the actual
 # name of you folder. For example, if it's called "Imagenes", it would be: 
 
-hyprshotSave="$HOME/.local/share/screenshots/"
+hyprshotSave="$HOME/screenshots"
 rofiConfig="$HOME/.config/rofi/hyprshot/style.rasi"
 
 options=" \n \n \n \n " 

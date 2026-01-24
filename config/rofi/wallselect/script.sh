@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# Define the wallpaper directory
+# Define paths
 WALL_DIR="$HOME/Pictures/Wallpapers"
+HYPR_CONF="$HOME/.config/hypr/hyprland.conf"
+PAPER_CONF="$HOME/.config/hypr/hyprpaper.conf"
 
 # Check if the wallpaper directory exists
 if [ ! -d "$WALL_DIR" ]; then
@@ -10,42 +12,50 @@ if [ ! -d "$WALL_DIR" ]; then
 fi
 
 # Use rofi to select a wallpaper
-# - We pipe the output of 'find' to rofi
-# - The 'while read' loop formats the output for rofi's icon mode
 SELECTED=$(find "$WALL_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) \
     | while read -r img; do echo -en "$img\0icon\x1f$img\n"; done \
     | rofi -dmenu -p "Select Wallpaper" -show-icons -theme "$HOME/.config/rofi/wallselect/style.rasi")
 
-# Exit if rofi was cancelled (no wallpaper selected)
+# Exit if cancelled
 if [ -z "$SELECTED" ]; then
     echo "No wallpaper selected."
     exit 0
 fi
 
-# Stop any running hyprpaper instance
-# We check if it's running before trying to kill it
-if pgrep -x "hyprpaper" > /dev/null; then
-    hyprctl hyprpaper unload all
-    killall -q hyprpaper
-    # Wait for the process to fully terminate
-    sleep 0.1
+# --- 1. Update hyprland.conf variable ---
+if grep -q "^\$wallpaper =" "$HYPR_CONF"; then
+    sed -i "s#^\$wallpaper =.*#\$wallpaper = $SELECTED#" "$HYPR_CONF"
+else
+    echo "Warning: \$wallpaper variable not found in hyprland.conf"
 fi
 
-# Define the config file path
-CONFIG_PATH="$HOME/.config/hypr/hyprpaper.conf"
+# --- 2. Update hyprpaper.conf (New Block Format) ---
+cat <<EOF > "$PAPER_CONF"
+preload = $SELECTED
 
-# Write the new configuration
-# - Overwrite config file with 'preload'
-echo "preload = $SELECTED" > "$CONFIG_PATH"
-# - Append 'wallpaper' setting. Using ', $SELECTED' applies to all monitors.
-echo "wallpaper = , $SELECTED" >> "$CONFIG_PATH"
-# - Append other settings
-echo "splash = off" >> "$CONFIG_PATH"
-# - 'ipc = on' is needed for hyprctl commands to work
-echo "ipc = on" >> "$CONFIG_PATH"
+wallpaper {
+    monitor = eDP-1
+    path = $SELECTED
+    fit_mode = cover
+}
 
-# Start hyprpaper in the background
-# - Redirect stdout/stderr to /dev/null to run it cleanly as a daemon
-hyprpaper &> /dev/null &
+splash = false
+ipc = on
+EOF
 
-echo "Wallpaper set to $SELECTED"
+# --- 3. Apply changes immediately via IPC ---
+if pgrep -x "hyprpaper" > /dev/null; then
+    # Preload the new image
+    hyprctl hyprpaper preload "$SELECTED"
+    
+    # Apply to the specific monitor (eDP-1) to avoid the "no target" issue
+    hyprctl hyprpaper wallpaper "eDP-1,$SELECTED"
+    
+    # Clean up memory
+    hyprctl hyprpaper unload all
+else
+    # Start hyprpaper in the background if it's not running
+    hyprpaper &> /dev/null &
+fi
+
+echo "Wallpaper updated to $SELECTED using the new block format."
