@@ -1,6 +1,4 @@
-
-" NEOVIM CONFIG - MODERN FUNCTIONALITY WITH SHORTCUTS (v0.9.5)
-" ===========================
+" NEOVIM CONFIG - MODERN FUNCTIONALITY WITH SHORTCUTS (v0.9.5) ===========================
 let g:java_highlight_markdown = 0
 autocmd VimEnter * call feedkeys("\<CR>")
 let g:polyglot_disabled = ['java','c++','cpp','c', 'markdown', 'auto-pairs']
@@ -11,7 +9,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Fuzzy Finder
 Plug 'junegunn/fzf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-
+Plug 'mistricky/codesnap.nvim', { 'tag': 'v1.3.0', 'do': 'make' }
 " File tree
 Plug 'preservim/nerdtree'
 
@@ -83,7 +81,8 @@ nnoremap ; `
 
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
-
+vnoremap <leader>cc :CodeSnap<CR>
+vnoremap <leader>cs :CodeSnapSave<CR>
 nnoremap <leader>q :q!<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>wq :wq<CR>
@@ -133,26 +132,27 @@ autocmd FileType cpp setlocal shiftwidth=2 softtabstop=2 tabstop=2 expandtab
 " --- Load Lua plugin configs ---
 lua require('plugins.autopairs')
 lua << EOF
--- Safely try to load treesitter. If it fails, do not crash Neovim.
-local status_ok, configs = pcall(require, "nvim-treesitter.configs")
-if not status_ok then
-    return -- Stop execution here if treesitter is missing
+local status_ok, codesnap = pcall(require, "codesnap")
+if status_ok then
+  codesnap.setup({
+    save_path = vim.fn.expand("~/Pictures"), 
+    has_extension = true,
+    watermark = "",
+    -- Note: in v0.0.11, 'code_theme' might be 'theme' 
+    -- If it still errors, try changing 'code_theme' to 'theme' below
+    code_theme = "tokyonight", 
+  })
 end
-
-configs.setup {
-  highlight = {
-    enable = true,
-    ensure_installed = { "java", "markdown", "markdown_inline" },
-    disable = { "c", "cpp"},
-    additional_vim_regex_highlighting = false,
-  },
-  indent = {
-    enable = true, 
-    disable = { "cpp", "c" }
-  }
-}
 EOF
-
+lua << EOF
+require("codesnap").setup({
+  save_path = vim.fn.expand("~/Pictures/Codesnap"),
+  has_extension = true,
+  watermark = "",
+  -- In v1.x, the theme key is often just 'theme'
+  code_theme = "tokyonight", 
+})
+EOF
 " Accept full suggestion with Ctrl+F
 imap <script><silent><nowait><expr> <C-f> codeium#Accept()
 
@@ -184,7 +184,7 @@ nnoremap <silent> \t :lua require('avante').ask_popup()<CR>
 
 " Close popup
 nnoremap <silent> \qa :lua require('avante').close_popup()<CR>
-
+" In your init.vim
 lua << EOF
 -- suppress lspconfig deprecation warnings
 vim.notify = (function(orig_notify)
@@ -283,3 +283,9 @@ lspconfig.jdtls.setup({
     }
 })
 EOF
+" Set global indentation to 2 spaces
+set expandtab       " Use spaces instead of tabs
+set shiftwidth=2    " Size of an indent
+set softtabstop=2   " Number of spaces in tab when editing
+set tabstop=2       " Number of spaces that a <Tab> counts for
+

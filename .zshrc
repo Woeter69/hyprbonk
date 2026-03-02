@@ -9,6 +9,14 @@ if [ ! -f "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" ]; 
            https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 fi
 
+# <<< conda initialize <<<
+if [ -f "/opt/anaconda/etc/profile.d/conda.sh" ]; then
+    . "/opt/anaconda/etc/profile.d/conda.sh"
+else
+    export PATH="/opt/anaconda/bin:$PATH"
+fi
+# >>> conda initialize >>>
+
 export TERM=xterm-kitty
 
 player="ytmdesktop"
@@ -82,6 +90,21 @@ alias calendar="firefox calendar.notion.so"
 # ------------------------------
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always --line-range :500 {}'"
+export FZF_CTRL_Z_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+
+_fzf_comprun() {
+  local command=$1
+  shift
+
+  case "$command" in
+    cd)           fzf --preview 'eza --tree --color=always {} | head -200' "$@" ;;
+    export|unset) fzf --preview "eval 'echo \$' {}"         "$@" ;;
+    ssh)          fzf --preview 'dig {}'                   "$@" ;;
+    *)            fzf --preview "preview 'bat -n --color=always --line-range :500 {}'" "$@" ;;
+  esac
+}
+
 # ------------------------------
 # PATH additions
 # ------------------------------
@@ -105,6 +128,30 @@ export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:$HOME/go/bin
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-cowsay -f actually I use Arch btw
+cowsay -f actually "I use Arch btw" | lolcat
 
 export PATH=$PATH:/home/Woeter/.spicetify
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias cat="bat"
+eval "$(zoxide init zsh)"
+alias cd="z"
+export OPENSSL_MODULES=/opt/anaconda/lib/ossl-modules
+alias wake-server='wol -i 192.168.1.255 CC:47:40:2D:0D:49'
+
+# NPM Global Packages
+export PATH=~/.npm-global/bin:$PATH
+
+source /usr/share/nvm/init-nvm.sh
+
+# bun completions
+[ -s "/home/Woeter/.bun/_bun" ] && source "/home/Woeter/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# AsyncAPI CLI Autocomplete
+
+ASYNCAPI_AC_ZSH_SETUP_PATH=/home/Woeter/.cache/@asyncapi/cli/autocomplete/zsh_setup && test -f $ASYNCAPI_AC_ZSH_SETUP_PATH && source $ASYNCAPI_AC_ZSH_SETUP_PATH; # asyncapi autocomplete setup
+
+
