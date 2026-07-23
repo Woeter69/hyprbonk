@@ -17,7 +17,6 @@ else
 fi
 # >>> conda initialize >>>
 
-export TERM=xterm-kitty
 
 player="ytmdesktop"
 # ------------------------------
@@ -80,6 +79,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 # ------------------------------
 alias nv='nvim'
 alias ls='ls --color=never'
+alias obsidian="/usr/bin/obsidian"
 alias ytm="firefox music.youtube.com"
 alias github="firefox github.com"
 alias gpt="firefox chatgpt.com"
@@ -112,15 +112,6 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH=$PATH:/snap/bin
 
 # ------------------------------
-# NVM (Node Version Manager)
-# ------------------------------
-hash() { true; }
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
-# ------------------------------
 # End of zshrc
 # -----------------------------
 
@@ -141,8 +132,6 @@ alias wake-server='wol -i 192.168.1.255 CC:47:40:2D:0D:49'
 # NPM Global Packages
 export PATH=~/.npm-global/bin:$PATH
 
-source /usr/share/nvm/init-nvm.sh
-
 # bun completions
 [ -s "/home/Woeter/.bun/_bun" ] && source "/home/Woeter/.bun/_bun"
 
@@ -150,8 +139,6 @@ source /usr/share/nvm/init-nvm.sh
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# AsyncAPI CLI Autocomplete
-
-ASYNCAPI_AC_ZSH_SETUP_PATH=/home/Woeter/.cache/@asyncapi/cli/autocomplete/zsh_setup && test -f $ASYNCAPI_AC_ZSH_SETUP_PATH && source $ASYNCAPI_AC_ZSH_SETUP_PATH; # asyncapi autocomplete setup
-
-
+# Added by Antigravity CLI installer
+export PATH="/home/Woeter/.local/bin:$PATH"
+source /usr/share/nvm/init-nvm.sh
