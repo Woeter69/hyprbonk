@@ -1,0 +1,643 @@
+[2025-10-25 19:04:35.077][main][info] Application launched
+[2025-10-25 19:04:35.103][main][info] Application set as default protcol client for 'ytmd'
+[2025-10-25 19:04:35.135][main][info] Created memory store
+[2025-10-25 19:04:35.153][main][info] Performing store migration from 0.0.0 to >=2.0.0
+[2025-10-25 19:04:35.157][main][info] Performing store migration from >=2.0.0 to >=2.0.1
+[2025-10-25 19:04:35.159][main][info] Performing store migration from >=2.0.1 to >=2.0.7
+[2025-10-25 19:04:35.161][main][info] Created electron store
+[2025-10-25 19:04:35.867][main][info] Application ready
+[2025-10-25 19:04:35.871][main][info] Setup IPC handlers
+[2025-10-25 19:04:35.872][main][info] Setup permission handlers
+[2025-10-25 19:04:35.872][main][info] Unregistered shortcuts
+[2025-10-25 19:04:35.873][main][info] Registered shortcuts
+[2025-10-25 19:04:35.876][main][info] Created tray icon
+[2025-10-25 19:04:35.894][main][info] Created main window
+[2025-10-25 19:04:35.897][main][info] Created YTM view
+[2025-10-25 19:04:35.906][main][info] Setup taskbar features
+[2025-10-25 19:04:35.906][main][info] Integration update: Zoom Factor
+[2025-10-25 19:04:35.906][main][info] Starting enabled integrations
+[2025-10-25 19:04:36.850][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2025-10-25 19:04:36.851][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2025-10-25 19:04:42.470][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:04:42.471][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:04:42.471][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:06:29.601][main][error] Electron event WebContents#did-fail-provisional-load observed {
+  errorCode: -106,
+  errorDescription: 'ERR_INTERNET_DISCONNECTED',
+  validatedURL: 'https://accounts.google.com/v3/signin/challenge/selection?TL=AMbiOOTVbMEgu4Kw37r1xHaGlZxatn-Syci4M4LBix-WfTdbFHreISv7pXyuoJoS&checkConnection=youtube:494&checkedDomains=youtube&continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fmusic.youtube.com%252F%26feature%3D__FEATURE__&dsh=S-1442735740:1761399282787204&flowEntry=ServiceLogin&flowName=WebLiteSignIn&hl=en&ifkv=AfYwgwUGL-YQAgf2rAMusrssF-Dm_Je2wnsVAkvrC1wx520gE1AKx4Fi3gyjAJgmF_qnEOvIftZKAg&lid=2&ltmpl=music&pstMsg=1&service=youtube',
+  isMainFrame: true,
+  frameProcessId: 10,
+  frameRoutingId: 4
+}
+[2025-10-25 19:06:29.602][main][error] Electron event WebContents#did-fail-load observed {
+  errorCode: -106,
+  errorDescription: 'ERR_INTERNET_DISCONNECTED',
+  validatedURL: 'https://accounts.google.com/v3/signin/challenge/selection?TL=AMbiOOTVbMEgu4Kw37r1xHaGlZxatn-Syci4M4LBix-WfTdbFHreISv7pXyuoJoS&checkConnection=youtube:494&checkedDomains=youtube&continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fmusic.youtube.com%252F%26feature%3D__FEATURE__&dsh=S-1442735740:1761399282787204&flowEntry=ServiceLogin&flowName=WebLiteSignIn&hl=en&ifkv=AfYwgwUGL-YQAgf2rAMusrssF-Dm_Je2wnsVAkvrC1wx520gE1AKx4Fi3gyjAJgmF_qnEOvIftZKAg&lid=2&ltmpl=music&pstMsg=1&service=youtube',
+  isMainFrame: true,
+  frameProcessId: 10,
+  frameRoutingId: 4
+}
+[2025-10-25 19:06:29.603][main][error] (node:51016) electron: Failed to load URL: https://accounts.google.com/[REDACTED] with error: ERR_INTERNET_DISCONNECTED
+(Use `youtube-music-desktop-app --trace-warnings ...` to show where the warning was created)
+[2025-10-25 19:06:35.947][main][info] Application quitting
+
+
+[2025-10-25 19:06:44.548][main][info] Application launched
+[2025-10-25 19:06:44.577][main][info] Application set as default protcol client for 'ytmd'
+[2025-10-25 19:06:44.612][main][info] Created memory store
+[2025-10-25 19:06:44.622][main][info] Created electron store
+[2025-10-25 19:06:44.691][main][info] Application ready
+[2025-10-25 19:06:44.692][main][info] Setup IPC handlers
+[2025-10-25 19:06:44.693][main][info] Setup permission handlers
+[2025-10-25 19:06:44.693][main][info] Unregistered shortcuts
+[2025-10-25 19:06:44.693][main][info] Registered shortcuts
+[2025-10-25 19:06:44.697][main][info] Created tray icon
+[2025-10-25 19:06:44.717][main][info] Created main window
+[2025-10-25 19:06:44.721][main][info] Created YTM view
+[2025-10-25 19:06:44.721][main][info] Setup taskbar features
+[2025-10-25 19:06:44.721][main][info] Integration update: Zoom Factor
+[2025-10-25 19:06:44.721][main][info] Starting enabled integrations
+[2025-10-25 19:06:45.480][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2025-10-25 19:06:45.480][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2025-10-25 19:06:56.123][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:06:56.123][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:06:56.123][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:08:02.964][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2025-10-25 19:08:08.431][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:08:08.449][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:08:08.450][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:10:24.422][main][info] Application quitting
+
+
+[2025-10-25 19:23:55.016][main][info] Application launched
+[2025-10-25 19:23:55.051][main][info] Application set as default protcol client for 'ytmd'
+[2025-10-25 19:23:55.082][main][info] Created memory store
+[2025-10-25 19:23:55.093][main][info] Created electron store
+[2025-10-25 19:23:55.220][main][info] Application ready
+[2025-10-25 19:23:55.222][main][info] Setup IPC handlers
+[2025-10-25 19:23:55.223][main][info] Setup permission handlers
+[2025-10-25 19:23:55.224][main][info] Unregistered shortcuts
+[2025-10-25 19:23:55.224][main][info] Registered shortcuts
+[2025-10-25 19:23:55.230][main][info] Created tray icon
+[2025-10-25 19:23:55.265][main][info] Created main window
+[2025-10-25 19:23:55.268][main][info] Created YTM view
+[2025-10-25 19:23:55.268][main][info] Setup taskbar features
+[2025-10-25 19:23:55.268][main][info] Integration update: Zoom Factor
+[2025-10-25 19:23:55.269][main][info] Starting enabled integrations
+[2025-10-25 19:23:55.842][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2025-10-25 19:23:55.842][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2025-10-25 19:24:00.436][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:24:00.437][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:24:00.438][renderer][error] requestStorageAccessFor: Permission denied.
+[2025-10-25 19:33:53.674][main][info] Application launched
+[2025-10-25 19:33:53.698][main][info] Application set as default protcol client for 'ytmd'
+[2025-10-25 19:33:53.731][main][info] Created memory store
+[2025-10-25 19:33:53.742][main][info] Created electron store
+[2025-10-25 19:33:53.832][main][info] Application ready
+[2025-10-25 19:33:53.833][main][info] Setup IPC handlers
+[2025-10-25 19:33:53.835][main][info] Setup permission handlers
+[2025-10-25 19:33:53.836][main][info] Unregistered shortcuts
+[2025-10-25 19:33:53.836][main][info] Registered shortcuts
+[2025-10-25 19:33:53.840][main][info] Created tray icon
+[2025-10-25 19:33:53.860][main][info] Created main window
+[2025-10-25 19:33:53.864][main][info] Created YTM view
+[2025-10-25 19:33:53.864][main][info] Setup taskbar features
+[2025-10-25 19:33:53.864][main][info] Integration update: Zoom Factor
+[2025-10-25 19:33:53.864][main][info] Starting enabled integrations
+[2025-10-25 19:33:54.466][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2025-10-25 19:33:54.467][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2025-10-25 19:34:00.643][main][info] Application quitting
+
+
+[2025-10-25 19:34:15.694][main][info] Application launched
+[2025-10-25 19:34:15.726][main][info] Application set as default protcol client for 'ytmd'
+[2025-10-25 19:34:15.758][main][info] Created memory store
+[2025-10-25 19:34:15.769][main][info] Created electron store
+[2025-10-25 19:34:15.845][main][info] Application ready
+[2025-10-25 19:34:15.846][main][info] Setup IPC handlers
+[2025-10-25 19:34:15.848][main][info] Setup permission handlers
+[2025-10-25 19:34:15.848][main][info] Unregistered shortcuts
+[2025-10-25 19:34:15.848][main][info] Registered shortcuts
+[2025-10-25 19:34:15.852][main][info] Created tray icon
+[2025-10-25 19:34:15.872][main][info] Created main window
+[2025-10-25 19:34:15.875][main][info] Created YTM view
+[2025-10-25 19:34:15.875][main][info] Setup taskbar features
+[2025-10-25 19:34:15.876][main][info] Integration update: Zoom Factor
+[2025-10-25 19:34:15.876][main][info] Starting enabled integrations
+[2025-10-25 19:34:16.670][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2025-10-25 19:34:16.671][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2025-10-25 19:34:46.491][main][info] Application quitting
+
+
+[2025-10-25 19:34:49.512][main][info] Application launched
+[2025-10-25 19:34:49.544][main][info] Application set as default protcol client for 'ytmd'
+[2025-10-25 19:34:49.577][main][info] Created memory store
+[2025-10-25 19:34:49.588][main][info] Created electron store
+[2025-10-25 19:34:49.650][main][info] Application ready
+[2025-10-25 19:34:49.651][main][info] Setup IPC handlers
+[2025-10-25 19:34:49.652][main][info] Setup permission handlers
+[2025-10-25 19:34:49.652][main][info] Unregistered shortcuts
+[2025-10-25 19:34:49.652][main][info] Registered shortcuts
+[2025-10-25 19:34:49.656][main][info] Created tray icon
+[2025-10-25 19:34:49.675][main][info] Created main window
+[2025-10-25 19:34:49.678][main][info] Created YTM view
+[2025-10-25 19:34:49.678][main][info] Setup taskbar features
+[2025-10-25 19:34:49.678][main][info] Integration update: Zoom Factor
+[2025-10-25 19:34:49.678][main][info] Starting enabled integrations
+[2025-10-25 19:34:50.355][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2025-10-25 19:34:50.355][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2025-10-25 19:34:59.488][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:34:59.490][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:34:59.492][main][info] Integration enabled: Discord presence
+[2025-10-25 19:34:59.512][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.513][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:34:59.514][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:34:59.515][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.516][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:34:59.516][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:34:59.517][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.517][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:34:59.517][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:34:59.518][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.518][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:34:59.519][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:34:59.519][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.520][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:34:59.520][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:34:59.520][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.520][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:34:59.521][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:34:59.521][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.521][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:34:59.521][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:34:59.522][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.522][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:34:59.522][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:34:59.522][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.523][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:34:59.523][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:34:59.523][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:34:59.523][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:34:59.523][main][info] Connecting to Discord attempt 1/30
+[2025-10-25 19:35:04.524][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:04.525][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:04.526][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.527][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:04.527][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:04.528][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.528][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:04.528][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:04.529][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.529][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:04.529][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:04.530][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.530][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:04.530][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:04.531][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.532][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:04.532][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:04.532][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.533][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:04.533][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:04.533][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.533][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:04.533][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:04.534][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.534][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:04.534][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:04.534][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.535][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:04.535][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:04.535][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:04.535][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:04.535][main][info] Connecting to Discord attempt 2/30
+[2025-10-25 19:35:09.536][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:09.537][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:09.538][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.539][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:09.539][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:09.540][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.540][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:09.540][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:09.541][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.541][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:09.541][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:09.541][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.542][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:09.542][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:09.542][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.542][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:09.542][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:09.543][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.543][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:09.543][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:09.543][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.543][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:09.543][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:09.544][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.544][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:09.544][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:09.544][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.544][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:09.544][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:09.545][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:09.545][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:09.545][main][info] Connecting to Discord attempt 3/30
+[2025-10-25 19:35:14.546][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:14.547][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:14.548][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.548][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:14.548][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:14.549][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.549][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:14.550][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:14.550][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.550][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:14.551][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:14.551][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.552][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:14.552][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:14.552][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.553][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:14.553][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:14.553][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.553][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:14.554][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:14.554][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.554][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:14.554][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:14.554][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.554][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:14.554][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:14.554][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.554][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:14.554][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:14.554][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:14.555][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:14.555][main][info] Connecting to Discord attempt 4/30
+[2025-10-25 19:35:19.555][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:19.556][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:19.558][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.558][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:19.558][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:19.559][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.559][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:19.559][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:19.560][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.560][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:19.560][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:19.561][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.561][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:19.561][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:19.562][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.562][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:19.562][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:19.562][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.562][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:19.563][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:19.563][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.563][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:19.563][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:19.564][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.564][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:19.564][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:19.564][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.564][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:19.564][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:19.565][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:19.565][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:19.565][main][info] Connecting to Discord attempt 5/30
+[2025-10-25 19:35:24.566][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:24.567][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:24.567][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.568][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:24.568][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:24.569][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.569][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:24.569][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:24.569][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.570][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:24.570][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:24.571][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.571][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:24.571][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:24.572][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.572][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:24.572][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:24.572][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.573][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:24.573][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:24.573][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.574][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:24.574][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:24.574][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.574][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:24.574][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:24.574][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.575][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:24.575][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:24.575][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:24.576][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:24.576][main][info] Connecting to Discord attempt 6/30
+[2025-10-25 19:35:29.576][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:29.577][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:29.578][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.578][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:29.579][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:29.579][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.580][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:29.580][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:29.581][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.582][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:29.582][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:29.583][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.583][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:29.583][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:29.584][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.584][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:29.584][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:29.585][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.585][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:29.585][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:29.586][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.586][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:29.586][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:29.587][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.587][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:29.587][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:29.587][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.588][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:29.588][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:29.588][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:29.588][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:29.588][main][info] Connecting to Discord attempt 7/30
+[2025-10-25 19:35:34.589][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:34.589][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:34.590][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.590][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:34.590][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:34.590][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.591][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:34.591][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:34.591][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.591][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:34.591][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:34.591][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.591][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:34.591][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:34.592][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.592][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:34.592][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:34.592][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.592][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:34.593][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:34.593][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.594][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:34.594][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:34.595][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.595][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:34.596][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:34.596][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.597][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:34.597][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:34.597][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:34.598][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:34.598][main][info] Connecting to Discord attempt 8/30
+[2025-10-25 19:35:39.599][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:39.599][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:39.600][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.601][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:39.601][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:39.602][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.602][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:39.602][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:39.603][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.603][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:39.603][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:39.604][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.604][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:39.604][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:39.604][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.604][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:39.604][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:39.605][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.605][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:39.605][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:39.605][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.605][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:39.605][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:39.606][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.606][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:39.606][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:39.606][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.606][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:39.606][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:39.606][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:39.606][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:39.606][main][info] Connecting to Discord attempt 9/30
+[2025-10-25 19:35:44.607][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:44.608][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:44.609][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.610][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:44.610][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:44.610][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.610][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:44.611][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:44.611][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.611][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:44.611][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:44.612][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.612][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:44.612][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:44.612][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.613][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:44.613][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:44.613][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.613][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:44.613][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:44.614][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.614][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:44.614][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:44.614][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.615][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:44.615][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:44.615][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.615][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:44.615][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:44.616][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:44.616][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:44.616][main][info] Connecting to Discord attempt 10/30
+[2025-10-25 19:35:49.617][main][debug] dipc: initiated connection loop over 10 ids
+[2025-10-25 19:35:49.617][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:49.618][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-0
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.619][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-0
+[2025-10-25 19:35:49.619][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:49.620][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-1
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.620][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-1
+[2025-10-25 19:35:49.621][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:49.621][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-2
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.621][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-2
+[2025-10-25 19:35:49.622][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:49.622][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-3
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.623][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-3
+[2025-10-25 19:35:49.623][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:49.623][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-4
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.623][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-4
+[2025-10-25 19:35:49.624][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:49.624][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-5
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.624][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-5
+[2025-10-25 19:35:49.624][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:49.624][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-6
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.625][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-6
+[2025-10-25 19:35:49.625][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:49.625][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-7
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.625][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-7
+[2025-10-25 19:35:49.625][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:49.625][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-8
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.625][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-8
+[2025-10-25 19:35:49.626][main][debug] dipc: connecting to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:49.626][main][error] dipc: socket error connecting to discord Error: connect ENOENT /run/user/1000/discord-ipc-9
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2025-10-25 19:35:49.626][main][debug] dipc: failed to connect to discord at /run/user/1000/discord-ipc-9
+[2025-10-25 19:35:49.626][main][info] Connecting to Discord attempt 11/30
+[2025-10-25 19:35:50.280][main][info] Integration disabled: Discord presence
+[2025-10-25 19:35:59.525][main][info] Application quitting
+
+
+[2025-10-25 19:41:39.632][main][info] Application launched
+[2025-10-25 19:41:39.656][main][info] Application set as default protcol client for 'ytmd'
+[2025-10-25 19:41:39.688][main][info] Created memory store
+[2025-10-25 19:41:39.698][main][info] Created electron store
+[2025-10-25 19:41:39.745][main][info] Application ready
+[2025-10-25 19:41:39.750][main][info] Setup IPC handlers
+[2025-10-25 19:41:39.751][main][info] Setup permission handlers
+[2025-10-25 19:41:39.751][main][info] Unregistered shortcuts
+[2025-10-25 19:41:39.752][main][info] Registered shortcuts
+[2025-10-25 19:41:39.755][main][info] Created tray icon
+[2025-10-25 19:41:39.775][main][info] Created main window
+[2025-10-25 19:41:39.778][main][info] Created YTM view
+[2025-10-25 19:41:39.779][main][info] Setup taskbar features
+[2025-10-25 19:41:39.779][main][info] Integration update: Zoom Factor
+[2025-10-25 19:41:39.779][main][info] Starting enabled integrations
+[2025-10-25 19:41:40.327][main][warn] (electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+[2025-10-25 19:41:40.327][renderer][info] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.
+[2025-10-25 19:41:45.274][main][info] Application quitting
+
+

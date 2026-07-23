@@ -89,3 +89,34 @@ button:hover {
 button label {
     opacity: 0;
 }
+
+#nowplaying {
+  /* Pin it to the bottom-center, outside the button grid */
+  margin: 0rem 8rem -8rem 8rem;
+
+  background-color: rgba(30, 30, 46, 0.75);
+  border: 1px solid @surface1;
+  border-radius: 12px;
+
+  color: @subtext1;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: italic;
+
+  min-height: 2.5rem;
+  padding: 0 1.5rem;
+
+  /* No icon, no animation, no hover flash */
+  background-image: none;
+  background-size: 0;
+  animation: none;
+}
+
+#nowplaying:hover {
+  background-color: rgba(30, 30, 46, 0.75);
+  background-image: none;
+  background-size: 0;
+  border-radius: 12px;
+  /* kill the mauve hover so it feels purely decorative */
+  transition: none;
+}

@@ -1,0 +1,10 @@
+{
+  "LastReminded": "2026-01-22T00:17:52.245951839+05:30",
+  "Donated": "0001-01-01T00:00:00Z",
+  "Obfs4": false,
+  "UserStoppedVPN": true,
+  "DisableAutostart": false,
+  "UDP": true,
+  "Snowflake": false,
+  "KCP": false
+}

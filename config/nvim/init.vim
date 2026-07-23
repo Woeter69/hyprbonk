@@ -20,7 +20,6 @@ Plug 'andweeb/presence.nvim'
 " Comment/uncomment lines easily
 Plug 'tpope/vim-commentary'
 
-" Treesitter for syntax highlighting
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 Plug 'nvim-lua/plenary.nvim'
@@ -52,7 +51,6 @@ call plug#end()
 
 set termguicolors
 colorscheme tokyonight
-
 
 " --- Basic Settings ---
 set number

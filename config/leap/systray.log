@@ -1,0 +1,677 @@
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-21T18:05:00+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-21T18:05:00+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-21T18:05:03+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-01-21T18:05:03+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-01-21T18:05:06+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-21T18:05:10+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-01-21T18:05:10+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-21T18:05:10+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-21T18:05:10+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-01-21T18:05:13+05:30","message":"Got sorted gateways: [vpn13-ams.riseup.net vpn04-ams.riseup.net vpn19-ams.riseup.net vpn06-ams.riseup.net vpn07-par.riseup.net vpn02-par.riseup.net vpn11-par.riseup.net vpn08-par.riseup.net vpn03-par.riseup.net vpn20-par.riseup.net vpn21-par.riseup.net vpn05-par.riseup.net vpn14-par.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-01-21T18:05:48+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-01-21T18:05:49+05:30","message":"Got best gateway [{vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-01-21T18:05:49+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-01-21T18:05:56+05:30","message":"Starting OpenVPN"}
+{"level":"info","time":"2026-01-21T18:06:25+05:30","message":"Stopping firewall"}
+{"level":"warn","error":"exit status 127","cmd":"/usr/sbin/bitmask-root firewall stop","time":"2026-01-21T18:06:30+05:30","message":"Error running bitmask-root: \"Error executing command as another user: Not authorized\n\nThis incident has been reported.\""}
+{"level":"warn","error":"exit status 127","time":"2026-01-21T18:06:30+05:30","message":"Could not stop VPN"}
+{"level":"info","gateway":"vpn13-ams.riseup.net","port":"1194","time":"2026-01-21T18:06:34+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-21T18:06:36+05:30","message":"Enabling logging"}
+{"level":"error","error":"another instance is already running, pid: 73946","time":"2026-01-21T18:06:36+05:30","message":"Could not acquire PID"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-21T18:08:45+05:30","message":"Enabling logging"}
+{"level":"error","error":"another instance is already running, pid: 73946","time":"2026-01-21T18:08:45+05:30","message":"Could not acquire PID"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-21T18:09:02+05:30","message":"Enabling logging"}
+{"level":"error","error":"another instance is already running, pid: 73946","time":"2026-01-21T18:09:02+05:30","message":"Could not acquire PID"}
+{"level":"info","time":"2026-01-21T18:09:09+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-01-21T18:09:09+05:30","message":"Stopping firewall"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-21T18:09:55+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-21T18:09:55+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-21T18:09:57+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-01-21T18:09:57+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-01-21T18:09:59+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-21T18:10:04+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-01-21T18:10:04+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-01-21T18:10:04+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-21T18:10:04+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-21T18:10:07+05:30","message":"Got sorted gateways: [vpn04-ams.riseup.net vpn13-ams.riseup.net vpn06-ams.riseup.net vpn19-ams.riseup.net vpn02-par.riseup.net vpn14-par.riseup.net vpn11-par.riseup.net vpn08-par.riseup.net vpn20-par.riseup.net vpn21-par.riseup.net vpn03-par.riseup.net vpn07-par.riseup.net vpn05-par.riseup.net vpn01-sea.riseup.net vpn16-sea.riseup.net vpn15-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-01-21T18:10:26+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-01-21T18:10:29+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-01-21T18:10:29+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-01-21T18:10:38+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-01-21T18:11:16+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-01-21T18:12:15+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-21T18:12:20+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-21T18:13:57+05:30","message":"Enabling logging"}
+{"level":"error","error":"another instance is already running, pid: 2323","time":"2026-01-21T18:13:57+05:30","message":"Could not acquire PID"}
+{"level":"info","time":"2026-01-21T18:14:14+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-01-21T18:14:14+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:55484: write: broken pipe","time":"2026-01-21T18:14:18+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-01-21T18:14:18+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-21T18:14:24+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-21T18:14:24+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-21T18:14:25+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-01-21T18:14:25+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-01-21T18:14:26+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-21T18:14:31+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-01-21T18:14:31+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-21T18:14:31+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-21T18:14:31+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-01-21T18:14:37+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-01-21T18:14:39+05:30","message":"Got sorted gateways: [vpn13-ams.riseup.net vpn04-ams.riseup.net vpn06-ams.riseup.net vpn19-ams.riseup.net vpn08-par.riseup.net vpn11-par.riseup.net vpn14-par.riseup.net vpn03-par.riseup.net vpn02-par.riseup.net vpn07-par.riseup.net vpn05-par.riseup.net vpn21-par.riseup.net vpn20-par.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-01-21T18:14:39+05:30","message":"Got best gateway [{vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-01-21T18:14:39+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-01-21T18:14:40+05:30","message":"Got sorted gateways: [vpn06-ams.riseup.net vpn19-ams.riseup.net vpn04-ams.riseup.net vpn13-ams.riseup.net vpn07-par.riseup.net vpn11-par.riseup.net vpn08-par.riseup.net vpn21-par.riseup.net vpn14-par.riseup.net vpn05-par.riseup.net vpn03-par.riseup.net vpn02-par.riseup.net vpn20-par.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"warn","error":"exit status 127","cmd":"/usr/sbin/bitmask-root firewall start 51.158.144.31 51.15.9.205 51.158.144.32","time":"2026-01-21T18:14:42+05:30","message":"Error running bitmask-root: \"Error executing command as another user: Not authorized\n\nThis incident has been reported.\""}
+{"level":"warn","error":"exit status 127","time":"2026-01-21T18:14:42+05:30","message":"Could not start VPN"}
+{"level":"info","time":"2026-01-21T18:14:45+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-01-21T18:14:45+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-21T18:14:53+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-21T18:15:26+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-21T18:15:26+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-21T18:15:27+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-01-21T18:15:27+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-01-21T18:15:29+05:30","message":"Stopping firewall"}
+{"level":"warn","error":"exit status 127","cmd":"/usr/sbin/bitmask-root firewall stop","time":"2026-01-21T18:15:34+05:30","message":"Error running bitmask-root: \"Error executing command as another user: Not authorized\n\nThis incident has been reported.\""}
+{"level":"warn","error":"exit status 127","time":"2026-01-21T18:15:34+05:30","message":"Could not stop firewall"}
+{"level":"info","time":"2026-01-21T18:15:34+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-01-21T18:15:34+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-21T18:15:34+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-21T18:15:34+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-01-21T18:15:37+05:30","message":"Got sorted gateways: [vpn13-ams.riseup.net vpn19-ams.riseup.net vpn04-ams.riseup.net vpn06-ams.riseup.net vpn20-par.riseup.net vpn08-par.riseup.net vpn03-par.riseup.net vpn07-par.riseup.net vpn02-par.riseup.net vpn05-par.riseup.net vpn11-par.riseup.net vpn14-par.riseup.net vpn21-par.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-01-21T18:15:38+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-01-21T18:15:38+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-21T18:15:43+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-21T18:17:46+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-21T18:17:46+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-21T18:17:47+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-01-21T18:17:47+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-01-21T18:17:49+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-21T18:17:52+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-01-21T18:17:52+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-21T18:17:52+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-21T18:17:52+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-01-21T18:17:55+05:30","message":"Got sorted gateways: [vpn04-ams.riseup.net vpn06-ams.riseup.net vpn13-ams.riseup.net vpn19-ams.riseup.net vpn21-par.riseup.net vpn02-par.riseup.net vpn05-par.riseup.net vpn20-par.riseup.net vpn08-par.riseup.net vpn11-par.riseup.net vpn14-par.riseup.net vpn07-par.riseup.net vpn03-par.riseup.net vpn16-sea.riseup.net vpn15-sea.riseup.net vpn01-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-01-21T18:17:57+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-01-21T18:17:58+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-01-21T18:17:58+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-01-21T18:18:01+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-01-21T18:18:35+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-01-21T18:50:25+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-21T18:50:27+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-01-22T00:31:47+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-01-22T00:31:47+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-01-22T00:31:47+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-01-22T00:31:50+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-01-22T00:32:25+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-22T12:59:19+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-22T12:59:19+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T12:59:29+05:30","message":"Checking for updates"}
+{"level":"warn","error":"Get \"https://downloads.leap.se/RiseupVPN/linux/lastver\": dial tcp: lookup downloads.leap.se: no such host","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T12:59:29+05:30","message":"Could not check if there are updates available"}
+{"level":"warn","error":"Get \"https://static.riseup.net/vpn/motd.json\": dial tcp: lookup static.riseup.net: no such host","url":"url","time":"2026-01-22T12:59:29+05:30","message":"Could not fetch MOTD json"}
+{"level":"info","time":"2026-01-22T12:59:29+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-22T13:00:14+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-01-22T13:00:14+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-01-22T13:00:14+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-22T13:00:14+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-22T13:00:18+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:00:24+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:01:23+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"lookup api.black.riseup.net: no such host","domain":"api.black.riseup.net","time":"2026-01-22T13:01:23+05:30","message":"Could not resolve address"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:01:31+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:01:38+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:01:52+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:01:54+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:02:07+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:02:10+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:02:23+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:02:25+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:02:59+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:02:59+05:30","message":"Could not fetch eip v3 json"}
+{"level":"info","time":"2026-01-22T13:03:05+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-01-22T13:03:05+05:30","message":"Stopping firewall"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-22T13:07:23+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-22T13:07:24+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T13:07:29+05:30","message":"Checking for updates"}
+{"level":"warn","error":"Get \"https://downloads.leap.se/RiseupVPN/linux/lastver\": dial tcp: lookup downloads.leap.se: no such host","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T13:07:29+05:30","message":"Could not check if there are updates available"}
+{"level":"warn","error":"Get \"https://static.riseup.net/vpn/motd.json\": dial tcp: lookup static.riseup.net: no such host","url":"url","time":"2026-01-22T13:07:29+05:30","message":"Could not fetch MOTD json"}
+{"level":"info","time":"2026-01-22T13:07:29+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-22T13:07:33+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-01-22T13:07:33+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-01-22T13:07:33+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-22T13:07:33+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-22T13:07:37+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:07:38+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"lookup api.black.riseup.net: no such host","domain":"api.black.riseup.net","time":"2026-01-22T13:07:38+05:30","message":"Could not resolve address"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:07:39+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:08:03+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T13:08:03+05:30","message":"Could not fetch eip v3 json"}
+{"level":"info","time":"2026-01-22T13:08:10+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-01-22T13:08:10+05:30","message":"Stopping firewall"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-22T14:43:01+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-22T14:43:01+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T14:43:12+05:30","message":"Checking for updates"}
+{"level":"warn","error":"Get \"https://downloads.leap.se/RiseupVPN/linux/lastver\": dial tcp: lookup downloads.leap.se: no such host","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T14:43:12+05:30","message":"Could not check if there are updates available"}
+{"level":"warn","error":"Get \"https://static.riseup.net/vpn/motd.json\": dial tcp: lookup static.riseup.net: no such host","url":"url","time":"2026-01-22T14:43:12+05:30","message":"Could not fetch MOTD json"}
+{"level":"info","time":"2026-01-22T14:43:12+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-22T14:43:16+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-01-22T14:43:16+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-22T14:43:16+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-22T14:43:16+05:30","message":"Fetching gateways..."}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:43:27+05:30","message":"Could not fetch eip v3 json"}
+{"level":"info","time":"2026-01-22T14:43:28+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:44:10+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"lookup api.black.riseup.net: no such host","domain":"api.black.riseup.net","time":"2026-01-22T14:44:10+05:30","message":"Could not resolve address"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:44:10+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:44:41+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:44:41+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:45:28+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:45:28+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:46:03+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:46:03+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:46:19+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:46:19+05:30","message":"Could not fetch eip v3 json"}
+{"level":"info","time":"2026-01-22T14:47:37+05:30","message":"Got sorted gateways: [vpn06-ams.riseup.net vpn13-ams.riseup.net vpn04-ams.riseup.net vpn19-ams.riseup.net vpn07-par.riseup.net vpn05-par.riseup.net vpn20-par.riseup.net vpn11-par.riseup.net vpn21-par.riseup.net vpn03-par.riseup.net vpn08-par.riseup.net vpn14-par.riseup.net vpn02-par.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net:9001/json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:48:34+05:30","message":"Could not fetch geolocation"}
+{"level":"info","time":"2026-01-22T14:48:34+05:30","message":"Got best gateway [{vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-01-22T14:48:34+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-01-22T14:48:39+05:30","message":"Starting OpenVPN"}
+{"level":"warn","error":"exit status 1","cmd":"/usr/sbin/bitmask-root openvpn start /usr/sbin/openvpn --data-ciphers AES-256-GCM --float  --key-direction 1 --nobind --persist-key --rcvbuf 0 --tls-cipher TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384 --verb 3 --auth SHA512 --data-ciphers AES-256-GCM --dev tun --keepalive 10 30 --sndbuf 0 --tls-version-min 1.2 --remote 51.158.144.32 80 udp4 --remote 51.158.144.32 1194 udp4 --remote 51.158.144.31 80 udp4 --remote 51.158.144.31 1194 udp4 --remote 51.15.9.205 80 udp4 --remote 51.15.9.205 1194 udp4 --verb 3 --management-client --management 127.0.0.1 6061 /tmp/leap-219049327/leap-vpn-3549247951 --ca /tmp/leap-219049327/cacert.pem --cert /tmp/leap-219049327/openvpn.pem --key /tmp/leap-219049327/openvpn.pem --persist-tun","time":"2026-01-22T14:48:41+05:30","message":"Error running bitmask-root: \"bitmask-root: WARNING: unrecognized openvpn flag --data-ciphers\nbitmask-root: WARNING: unrecognized openvpn flag --float\nbitmask-root: WARNING: unrecognized openvpn flag --key-direction\nbitmask-root: WARNING: unrecognized openvpn flag --nobind\nbitmask-root: WARNING: unrecognized openvpn flag --persist-key\nbitmask-root: WARNING: unrecognized openvpn flag --rcvbuf\nbitmask-root: WARNING: unrecognized openvpn flag --data-ciphers\nbitmask-root: WARNING: unrecognized openvpn flag --dev\nbitmask-root: WARNING: unrecognized openvpn flag --sndbuf\nbitmask-root: WARNING: unrecognized openvpn flag --tls-version-min\nbitmask-root: bitmask-root: ERROR: Bad argument /tmp/leap-219049327/openvpn.pem\nbitmask-root: ERROR: could not parse openvpn options\""}
+{"level":"warn","error":"exit status 1","time":"2026-01-22T14:48:41+05:30","message":"An error ocurred running OpenVPN"}
+{"level":"warn","error":"exit status 1","cmd":"/usr/sbin/bitmask-root openvpn start /usr/sbin/openvpn --data-ciphers AES-256-GCM --float  --key-direction 1 --nobind --persist-key --rcvbuf 0 --tls-cipher TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384 --verb 3 --auth SHA512 --data-ciphers AES-256-GCM --dev tun --keepalive 10 30 --sndbuf 0 --tls-version-min 1.2 --remote 51.158.144.32 80 udp4 --remote 51.158.144.32 1194 udp4 --remote 51.158.144.31 80 udp4 --remote 51.158.144.31 1194 udp4 --remote 51.15.9.205 80 udp4 --remote 51.15.9.205 1194 udp4 --verb 3 --management-client --management 127.0.0.1 6061 /tmp/leap-219049327/leap-vpn-3549247951 --ca /tmp/leap-219049327/cacert.pem --cert /tmp/leap-219049327/openvpn.pem --key /tmp/leap-219049327/openvpn.pem --persist-tun","time":"2026-01-22T14:48:43+05:30","message":"Error running bitmask-root: \"bitmask-root: WARNING: unrecognized openvpn flag --data-ciphers\nbitmask-root: WARNING: unrecognized openvpn flag --float\nbitmask-root: WARNING: unrecognized openvpn flag --key-direction\nbitmask-root: WARNING: unrecognized openvpn flag --nobind\nbitmask-root: WARNING: unrecognized openvpn flag --persist-key\nbitmask-root: WARNING: unrecognized openvpn flag --rcvbuf\nbitmask-root: WARNING: unrecognized openvpn flag --data-ciphers\nbitmask-root: WARNING: unrecognized openvpn flag --dev\nbitmask-root: WARNING: unrecognized openvpn flag --sndbuf\nbitmask-root: WARNING: unrecognized openvpn flag --tls-version-min\nbitmask-root: bitmask-root: ERROR: Bad argument /tmp/leap-219049327/openvpn.pem\nbitmask-root: ERROR: could not parse openvpn options\""}
+{"level":"warn","error":"exit status 1","time":"2026-01-22T14:48:43+05:30","message":"An error ocurred running OpenVPN"}
+{"level":"info","time":"2026-01-22T14:49:47+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-01-22T14:49:47+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-22T14:49:50+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-22T14:52:22+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-22T14:52:22+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T14:52:40+05:30","message":"Checking for updates"}
+{"level":"warn","error":"Get \"https://downloads.leap.se/RiseupVPN/linux/lastver\": dial tcp: lookup downloads.leap.se: no such host","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T14:52:40+05:30","message":"Could not check if there are updates available"}
+{"level":"warn","error":"Get \"https://static.riseup.net/vpn/motd.json\": dial tcp: lookup static.riseup.net: no such host","url":"url","time":"2026-01-22T14:52:46+05:30","message":"Could not fetch MOTD json"}
+{"level":"info","time":"2026-01-22T14:52:46+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-22T14:52:49+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-01-22T14:52:49+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-22T14:52:49+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-22T14:52:49+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-01-22T14:52:54+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","time":"2026-01-22T14:54:17+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"lookup api.black.riseup.net: no such host","domain":"api.black.riseup.net","time":"2026-01-22T14:54:27+05:30","message":"Could not resolve address"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:54:40+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:54:40+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:55:01+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T14:55:01+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:55:37+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:55:37+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:55:52+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:55:52+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:56:07+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:56:07+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:56:22+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:56:22+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:56:37+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: Temporary failure in name resolution","time":"2026-01-22T14:56:37+05:30","message":"Could not fetch eip v3 json"}
+{"level":"info","time":"2026-01-22T14:56:40+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-01-22T14:56:40+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-22T14:56:43+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-22T14:59:08+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-22T14:59:08+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T14:59:32+05:30","message":"Checking for updates"}
+{"level":"warn","error":"Get \"https://downloads.leap.se/RiseupVPN/linux/lastver\": dial tcp: lookup downloads.leap.se: no such host","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T14:59:32+05:30","message":"Could not check if there are updates available"}
+{"level":"warn","error":"Get \"https://static.riseup.net/vpn/motd.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","url":"url","time":"2026-01-22T15:00:02+05:30","message":"Could not fetch MOTD json"}
+{"level":"info","time":"2026-01-22T15:00:02+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-22T15:00:07+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-01-22T15:00:07+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-22T15:00:07+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-01-22T15:00:07+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-22T15:00:13+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"warn","error":"lookup api.black.riseup.net: no such host","domain":"api.black.riseup.net","time":"2026-01-22T15:00:54+05:30","message":"Could not resolve address"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:00:54+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:01:53+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:01:53+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:02:09+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:02:09+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:02:24+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:02:24+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:03:05+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:03:05+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:03:25+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:03:25+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:04:02+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:04:02+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:04:38+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:04:38+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:05:00+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:05:00+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:05:20+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:05:20+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:05:56+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:05:56+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:06:16+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:06:16+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:07:13+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:07:13+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:08:18+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:08:18+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:08:48+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:08:48+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:09:22+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": dial tcp: lookup api.black.riseup.net: no such host","time":"2026-01-22T15:09:22+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","time":"2026-01-22T15:10:37+05:30","message":"Could not fetch eip v3 json"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","time":"2026-01-22T15:10:37+05:30","message":"Could not fetch eip v3 json"}
+{"level":"info","time":"2026-01-22T15:10:56+05:30","message":"Got sorted gateways: [vpn19-ams.riseup.net vpn13-ams.riseup.net vpn04-ams.riseup.net vpn06-ams.riseup.net vpn21-par.riseup.net vpn05-par.riseup.net vpn08-par.riseup.net vpn02-par.riseup.net vpn03-par.riseup.net vpn07-par.riseup.net vpn20-par.riseup.net vpn14-par.riseup.net vpn11-par.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-01-22T15:10:56+05:30","message":"Got sorted gateways: [vpn13-ams.riseup.net vpn04-ams.riseup.net vpn06-ams.riseup.net vpn19-ams.riseup.net vpn07-par.riseup.net vpn21-par.riseup.net vpn05-par.riseup.net vpn11-par.riseup.net vpn02-par.riseup.net vpn03-par.riseup.net vpn08-par.riseup.net vpn20-par.riseup.net vpn14-par.riseup.net vpn16-sea.riseup.net vpn15-sea.riseup.net vpn01-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-01-22T15:10:56+05:30","message":"Got best gateway [{vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-01-22T15:10:56+05:30","message":"Starting firewall"}
+{"level":"warn","error":"exit status 127","cmd":"/usr/sbin/bitmask-root firewall start 51.158.144.31 51.15.9.205 51.158.144.32","time":"2026-01-22T15:11:00+05:30","message":"Error running bitmask-root: \"Error executing command as another user: Not authorized\n\nThis incident has been reported.\""}
+{"level":"warn","error":"exit status 127","time":"2026-01-22T15:11:00+05:30","message":"Could not start VPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-01-22T20:46:58+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-01-22T20:46:58+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-01-22T20:47:00+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-01-22T20:47:00+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-01-22T20:47:07+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-22T20:47:11+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-01-22T20:47:11+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-01-22T20:47:11+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-01-22T20:47:11+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-01-22T20:47:18+05:30","message":"Got sorted gateways: [vpn13-ams.riseup.net vpn06-ams.riseup.net vpn04-ams.riseup.net vpn19-ams.riseup.net vpn07-par.riseup.net vpn02-par.riseup.net vpn21-par.riseup.net vpn03-par.riseup.net vpn05-par.riseup.net vpn14-par.riseup.net vpn08-par.riseup.net vpn11-par.riseup.net vpn20-par.riseup.net vpn15-sea.riseup.net vpn01-sea.riseup.net vpn16-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-01-22T20:47:39+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-01-22T20:47:40+05:30","message":"Got best gateway [{vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-01-22T20:47:40+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-01-22T20:47:44+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn13-ams.riseup.net","port":"1194","time":"2026-01-22T20:48:20+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-01-22T20:53:51+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-01-22T20:53:51+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-01-22T20:53:54+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-02-13T16:42:43+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-02-13T16:42:43+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-02-13T16:42:44+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-02-13T16:42:44+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-02-13T16:42:47+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-02-13T16:42:51+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-02-13T16:42:51+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-02-13T16:42:51+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-02-13T16:42:51+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-02-13T16:42:54+05:30","message":"Got sorted gateways: [vpn19-ams.riseup.net vpn06-ams.riseup.net vpn13-ams.riseup.net vpn04-ams.riseup.net vpn07-par.riseup.net vpn03-par.riseup.net vpn20-par.riseup.net vpn21-par.riseup.net vpn02-par.riseup.net vpn08-par.riseup.net vpn05-par.riseup.net vpn14-par.riseup.net vpn11-par.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-02-13T16:43:05+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-02-13T16:43:06+05:30","message":"Got best gateway [{vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-02-13T16:43:06+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-02-13T16:43:10+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn19-ams.riseup.net","port":"1194","time":"2026-02-13T16:43:50+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-02-13T16:45:33+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-02-13T16:45:36+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-02-15T14:46:47+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-02-15T14:46:47+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-02-15T14:46:49+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-02-15T14:46:49+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-02-15T14:46:52+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-02-15T14:46:55+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-02-15T14:46:55+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-02-15T14:46:55+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-02-15T14:46:55+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-02-15T14:47:00+05:30","message":"Got sorted gateways: [vpn19-ams.riseup.net vpn13-ams.riseup.net vpn04-ams.riseup.net vpn06-ams.riseup.net vpn03-par.riseup.net vpn21-par.riseup.net vpn07-par.riseup.net vpn14-par.riseup.net vpn20-par.riseup.net vpn05-par.riseup.net vpn02-par.riseup.net vpn08-par.riseup.net vpn11-par.riseup.net vpn01-sea.riseup.net vpn16-sea.riseup.net vpn15-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-02-15T14:47:06+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-02-15T14:47:09+05:30","message":"Got best gateway [{vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-02-15T14:47:09+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-02-15T14:47:12+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn19-ams.riseup.net","port":"1194","time":"2026-02-15T14:47:50+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-02-15T14:48:37+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-02-15T14:48:40+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-02-27T12:46:57+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-02-27T12:46:57+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-02-27T12:46:58+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-02-27T12:46:58+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-02-27T12:47:02+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-02-27T12:47:07+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-02-27T12:47:07+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-02-27T12:47:07+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-02-27T12:47:07+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-02-27T12:47:10+05:30","message":"Got sorted gateways: [vpn06-ams.riseup.net vpn04-ams.riseup.net vpn19-ams.riseup.net vpn13-ams.riseup.net vpn08-par.riseup.net vpn05-par.riseup.net vpn07-par.riseup.net vpn20-par.riseup.net vpn14-par.riseup.net vpn11-par.riseup.net vpn21-par.riseup.net vpn02-par.riseup.net vpn03-par.riseup.net vpn15-sea.riseup.net vpn01-sea.riseup.net vpn16-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-02-27T12:47:14+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-02-27T12:47:14+05:30","message":"Got best gateway [{vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-02-27T12:47:14+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-02-27T12:47:18+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn06-ams.riseup.net","port":"1194","time":"2026-02-27T12:48:24+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-02-27T12:48:45+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-02-27T12:48:45+05:30","message":"Stopping firewall"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-04-20T20:46:49+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-04-20T20:46:49+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-04-20T20:46:51+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-04-20T20:46:51+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-04-20T20:46:53+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-04-20T20:46:57+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-04-20T20:46:57+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-04-20T20:46:57+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-04-20T20:46:57+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-04-20T20:46:59+05:30","message":"Got sorted gateways: [vpn19-ams.riseup.net vpn04-ams.riseup.net vpn13-ams.riseup.net vpn06-ams.riseup.net vpn11-par.riseup.net vpn08-par.riseup.net vpn03-par.riseup.net vpn21-par.riseup.net vpn02-par.riseup.net vpn20-par.riseup.net vpn14-par.riseup.net vpn05-par.riseup.net vpn07-par.riseup.net vpn16-sea.riseup.net vpn15-sea.riseup.net vpn01-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-04-20T22:54:30+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-04-20T22:54:30+05:30","message":"Stopping firewall"}
+{"level":"warn","error":"exit status 127","cmd":"/usr/sbin/bitmask-root firewall stop","time":"2026-04-20T22:54:32+05:30","message":"Error running bitmask-root: \"Error executing command as another user: Not authorized\n\nThis incident has been reported.\""}
+{"level":"warn","error":"exit status 127","time":"2026-04-20T22:54:32+05:30","message":"There was an error stopping the vpn"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-05-02T18:11:46+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-05-02T18:11:46+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-05-02T18:11:47+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-05-02T18:11:47+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-05-02T18:11:50+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-05-02T18:11:55+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-05-02T18:11:55+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-05-02T18:11:55+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-05-02T18:11:55+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-05-02T18:11:58+05:30","message":"Got sorted gateways: [vpn13-ams.riseup.net vpn04-ams.riseup.net vpn19-ams.riseup.net vpn06-ams.riseup.net vpn07-par.riseup.net vpn03-par.riseup.net vpn02-par.riseup.net vpn11-par.riseup.net vpn21-par.riseup.net vpn20-par.riseup.net vpn14-par.riseup.net vpn08-par.riseup.net vpn05-par.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-05-02T18:12:02+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-05-02T18:12:03+05:30","message":"Got best gateway [{vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-05-02T18:12:03+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-05-02T18:12:11+05:30","message":"Starting OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-05-30T15:17:30+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-05-30T15:17:30+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-05-30T15:17:31+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-05-30T15:17:31+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-05-30T15:17:35+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-05-30T15:17:41+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-05-30T15:17:41+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-05-30T15:17:41+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-05-30T15:17:41+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-05-30T15:17:45+05:30","message":"Got sorted gateways: [vpn13-ams.riseup.net vpn19-ams.riseup.net vpn06-ams.riseup.net vpn04-ams.riseup.net vpn07-par.riseup.net vpn20-par.riseup.net vpn14-par.riseup.net vpn11-par.riseup.net vpn21-par.riseup.net vpn02-par.riseup.net vpn03-par.riseup.net vpn08-par.riseup.net vpn05-par.riseup.net vpn15-sea.riseup.net vpn01-sea.riseup.net vpn16-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-05-30T15:17:50+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-05-30T15:17:51+05:30","message":"Got best gateway [{vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-05-30T15:17:51+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-05-30T15:17:56+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn13-ams.riseup.net","port":"1194","time":"2026-05-30T15:19:02+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-05-30T15:34:47+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-05-30T15:35:00+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-05-30T15:35:05+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-05-30T15:35:05+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:35814: write: broken pipe","time":"2026-05-30T15:35:07+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-05-30T15:35:07+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-03T00:52:59+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-03T00:52:59+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-03T00:53:00+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-03T00:53:00+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-03T00:53:03+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-03T00:53:06+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-06-03T00:53:06+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-06-03T00:53:06+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-03T00:53:06+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-03T00:53:09+05:30","message":"Got sorted gateways: [vpn19-ams.riseup.net vpn13-ams.riseup.net vpn06-ams.riseup.net vpn04-ams.riseup.net vpn02-par.riseup.net vpn21-par.riseup.net vpn20-par.riseup.net vpn11-par.riseup.net vpn03-par.riseup.net vpn05-par.riseup.net vpn07-par.riseup.net vpn14-par.riseup.net vpn08-par.riseup.net vpn15-sea.riseup.net vpn01-sea.riseup.net vpn16-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-06-03T00:53:11+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-03T00:53:11+05:30","message":"Got best gateway [{vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-03T00:53:11+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-03T00:53:14+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn19-ams.riseup.net","port":"1194","time":"2026-06-03T00:54:19+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-03T00:56:08+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-03T00:56:10+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-03T00:56:15+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-06-03T00:56:15+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:36740: write: broken pipe","time":"2026-06-03T00:56:17+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-06-03T00:56:17+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-07T00:29:26+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-07T00:29:26+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-07T00:29:28+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-07T00:29:28+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-07T00:29:32+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-07T00:29:37+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-06-07T00:29:37+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-07T00:29:37+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-07T00:29:37+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-06-07T00:29:40+05:30","message":"Got sorted gateways: [vpn04-ams.riseup.net vpn06-ams.riseup.net vpn13-ams.riseup.net vpn19-ams.riseup.net vpn05-par.riseup.net vpn20-par.riseup.net vpn03-par.riseup.net vpn11-par.riseup.net vpn14-par.riseup.net vpn02-par.riseup.net vpn21-par.riseup.net vpn08-par.riseup.net vpn07-par.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-06-07T00:29:48+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-07T00:29:49+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-07T00:29:49+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-07T00:29:54+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-07T00:31:00+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-07T00:36:40+05:30","message":"Restarting OpenVPN"}
+{"level":"info","time":"2026-06-07T00:36:40+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-07T00:36:44+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-07T00:36:46+05:30","message":"Got best gateway [{vpn05-par.riseup.net 195.154.119.165 Paris Paris FR [53 80 1194] [tcp udp] map[] openvpn} {vpn20-par.riseup.net 51.159.198.167 Paris Paris FR [53 80 1194] [tcp udp] map[] openvpn} {vpn03-par.riseup.net 163.172.20.106 Paris Paris FR [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-07T00:36:46+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-07T00:36:49+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn05-par.riseup.net","port":"1194","time":"2026-06-07T00:37:55+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-07T00:38:22+05:30","message":"Restarting OpenVPN"}
+{"level":"info","time":"2026-06-07T00:38:22+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-07T00:38:25+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-07T00:38:28+05:30","message":"Got best gateway [{vpn15-sea.riseup.net 199.254.238.55 Seattle Seattle US [53 80 1194] [tcp udp] map[] openvpn} {vpn16-sea.riseup.net 198.252.153.109 Seattle Seattle US [53 80 1194] [tcp udp] map[] openvpn} {vpn01-sea.riseup.net 204.13.164.252 Seattle Seattle US [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-07T00:38:28+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-07T00:38:30+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn15-sea.riseup.net","port":"1194","time":"2026-06-07T00:39:38+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-07T00:45:08+05:30","message":"Restarting OpenVPN"}
+{"level":"info","time":"2026-06-07T00:45:08+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-07T00:45:11+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-07T00:45:14+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-07T00:45:14+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-07T00:45:16+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-07T00:46:21+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-08T00:04:23+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-08T00:04:23+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-08T00:04:25+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-08T00:04:25+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-08T00:04:28+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-08T00:04:31+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-06-08T00:04:31+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-06-08T00:04:31+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-08T00:04:31+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-08T00:04:35+05:30","message":"Got sorted gateways: [vpn04-ams.riseup.net vpn06-ams.riseup.net vpn13-ams.riseup.net vpn19-ams.riseup.net vpn02-par.riseup.net vpn20-par.riseup.net vpn07-par.riseup.net vpn14-par.riseup.net vpn11-par.riseup.net vpn21-par.riseup.net vpn05-par.riseup.net vpn08-par.riseup.net vpn03-par.riseup.net vpn15-sea.riseup.net vpn01-sea.riseup.net vpn16-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-06-08T00:04:48+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-08T00:04:48+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-08T00:04:48+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-08T00:04:52+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-08T00:05:57+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-08T00:14:14+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-08T00:14:18+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-08T00:14:24+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-06-08T00:14:24+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:39776: write: broken pipe","time":"2026-06-08T00:14:27+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-06-08T00:14:27+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-09T20:44:24+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-09T20:44:24+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-09T20:44:26+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-09T20:44:26+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-09T20:44:28+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-09T20:44:31+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-06-09T20:44:31+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-09T20:44:31+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-09T20:44:31+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-06-09T20:44:34+05:30","message":"Got sorted gateways: [vpn04-ams.riseup.net vpn06-ams.riseup.net vpn19-ams.riseup.net vpn13-ams.riseup.net vpn05-par.riseup.net vpn07-par.riseup.net vpn21-par.riseup.net vpn08-par.riseup.net vpn03-par.riseup.net vpn11-par.riseup.net vpn02-par.riseup.net vpn14-par.riseup.net vpn20-par.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-06-09T20:44:49+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-09T20:44:50+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-09T20:44:50+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-09T20:44:54+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-09T20:46:02+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-10T12:53:35+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-10T12:53:35+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-10T12:53:37+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-10T12:53:37+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-10T12:53:40+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-10T12:53:45+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-06-10T12:53:45+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-06-10T12:53:45+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-10T12:53:45+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-10T12:53:50+05:30","message":"Got sorted gateways: [vpn04-ams.riseup.net vpn13-ams.riseup.net vpn19-ams.riseup.net vpn06-ams.riseup.net vpn11-par.riseup.net vpn05-par.riseup.net vpn20-par.riseup.net vpn14-par.riseup.net vpn03-par.riseup.net vpn21-par.riseup.net vpn07-par.riseup.net vpn08-par.riseup.net vpn02-par.riseup.net vpn15-sea.riseup.net vpn01-sea.riseup.net vpn16-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-06-10T12:53:55+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-10T12:53:56+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-10T12:53:56+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-10T12:53:59+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-10T12:55:08+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-10T13:12:00+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-10T13:12:02+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-10T13:12:08+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-06-10T13:12:08+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:35956: write: broken pipe","time":"2026-06-10T13:12:10+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-06-10T13:12:10+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-11T12:54:26+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-11T12:54:26+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-11T12:54:28+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-11T12:54:28+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-11T12:54:32+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-11T12:54:34+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-06-11T12:54:34+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-11T12:54:34+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-11T12:54:34+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-06-11T12:54:38+05:30","message":"Got sorted gateways: [vpn19-ams.riseup.net vpn13-ams.riseup.net vpn04-ams.riseup.net vpn06-ams.riseup.net vpn07-par.riseup.net vpn14-par.riseup.net vpn08-par.riseup.net vpn11-par.riseup.net vpn03-par.riseup.net vpn02-par.riseup.net vpn20-par.riseup.net vpn05-par.riseup.net vpn21-par.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-06-11T12:54:41+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-11T12:54:41+05:30","message":"Got best gateway [{vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-11T12:54:41+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-11T12:54:53+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn19-ams.riseup.net","port":"1194","time":"2026-06-11T12:55:59+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-11T12:57:37+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-11T12:57:40+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-11T12:57:45+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-06-11T12:57:45+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:43474: write: broken pipe","time":"2026-06-11T12:57:46+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-06-11T12:57:46+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-11T22:43:13+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-11T22:43:13+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-11T22:43:15+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-11T22:43:15+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-11T22:43:24+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-11T22:43:28+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-06-11T22:43:28+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-11T22:43:28+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-11T22:43:28+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-06-11T22:43:32+05:30","message":"Got sorted gateways: [vpn06-ams.riseup.net vpn13-ams.riseup.net vpn04-ams.riseup.net vpn19-ams.riseup.net vpn07-par.riseup.net vpn05-par.riseup.net vpn02-par.riseup.net vpn11-par.riseup.net vpn03-par.riseup.net vpn20-par.riseup.net vpn21-par.riseup.net vpn08-par.riseup.net vpn14-par.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-06-11T22:43:33+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-11T22:43:33+05:30","message":"Got best gateway [{vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-11T22:43:33+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-11T22:43:36+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn06-ams.riseup.net","port":"1194","time":"2026-06-11T22:44:48+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-11T22:47:14+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-11T22:47:16+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-11T22:47:25+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-06-11T22:47:25+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:53160: write: broken pipe","time":"2026-06-11T22:47:27+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-06-11T22:47:27+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-13T23:48:08+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-13T23:48:08+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-13T23:48:09+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-13T23:48:09+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-13T23:48:12+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-13T23:48:21+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-06-13T23:48:21+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-06-13T23:48:21+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-13T23:48:21+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-13T23:48:24+05:30","message":"Got sorted gateways: [vpn04-ams.riseup.net vpn13-ams.riseup.net vpn06-ams.riseup.net vpn19-ams.riseup.net vpn07-par.riseup.net vpn08-par.riseup.net vpn11-par.riseup.net vpn20-par.riseup.net vpn21-par.riseup.net vpn05-par.riseup.net vpn14-par.riseup.net vpn02-par.riseup.net vpn03-par.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-06-13T23:48:33+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-13T23:48:34+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-13T23:48:34+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-13T23:48:37+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-13T23:49:42+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-14T18:46:31+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-14T18:46:31+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-14T18:47:01+05:30","message":"Checking for updates"}
+{"level":"warn","error":"Get \"https://downloads.leap.se/RiseupVPN/linux/lastver\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-14T18:47:01+05:30","message":"Could not check if there are updates available"}
+{"level":"warn","error":"Get \"https://static.riseup.net/vpn/motd.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","url":"url","time":"2026-06-14T18:47:31+05:30","message":"Could not fetch MOTD json"}
+{"level":"info","time":"2026-06-14T18:47:31+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-14T18:47:38+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-06-14T18:47:38+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-06-14T18:47:38+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-14T18:47:38+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-14T18:47:47+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"warn","error":"Post \"https://api.black.riseup.net/3/config/eip-service.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","time":"2026-06-14T18:49:38+05:30","message":"Could not fetch eip v3 json"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-17T14:40:12+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-17T14:40:12+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-17T14:40:14+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-17T14:40:14+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-17T14:40:17+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-17T14:40:20+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-06-17T14:40:20+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-17T14:40:20+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-17T14:40:20+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-06-17T14:40:22+05:30","message":"Got sorted gateways: [vpn19-ams.riseup.net vpn04-ams.riseup.net vpn13-ams.riseup.net vpn06-ams.riseup.net vpn20-par.riseup.net vpn14-par.riseup.net vpn03-par.riseup.net vpn02-par.riseup.net vpn21-par.riseup.net vpn11-par.riseup.net vpn08-par.riseup.net vpn05-par.riseup.net vpn07-par.riseup.net vpn01-sea.riseup.net vpn16-sea.riseup.net vpn15-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-06-17T14:40:32+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-17T14:40:32+05:30","message":"Got best gateway [{vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-17T14:40:32+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-17T14:40:35+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn19-ams.riseup.net","port":"1194","time":"2026-06-17T14:41:41+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-17T14:43:03+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-17T14:43:08+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-17T14:43:14+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-06-17T14:43:14+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:52052: write: broken pipe","time":"2026-06-17T14:43:15+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-06-17T14:43:15+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-17T19:20:50+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-17T19:20:50+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-17T19:20:52+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-17T19:20:52+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-17T19:20:54+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-17T19:20:57+05:30","message":"Using transport openvpn"}
+{"level":"info","time":"2026-06-17T19:20:57+05:30","message":"Fetching gateways..."}
+{"level":"info","transport":"openvpn","time":"2026-06-17T19:20:57+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-17T19:20:57+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-17T19:21:00+05:30","message":"Got sorted gateways: [vpn04-ams.riseup.net vpn06-ams.riseup.net vpn19-ams.riseup.net vpn13-ams.riseup.net vpn02-par.riseup.net vpn11-par.riseup.net vpn20-par.riseup.net vpn07-par.riseup.net vpn14-par.riseup.net vpn08-par.riseup.net vpn05-par.riseup.net vpn21-par.riseup.net vpn03-par.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"info","time":"2026-06-17T19:21:04+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-17T19:21:05+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-17T19:21:05+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-17T19:21:09+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-17T19:22:16+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-17T19:25:09+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-17T20:35:56+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-17T21:13:15+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-17T21:13:17+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-17T21:13:21+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-06-17T21:13:21+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:52076: write: broken pipe","time":"2026-06-17T21:13:23+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-06-17T21:13:23+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-18T20:57:27+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-18T20:57:27+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-18T20:57:37+05:30","message":"Checking for updates"}
+{"level":"warn","error":"Get \"https://downloads.leap.se/RiseupVPN/linux/lastver\": net/http: TLS handshake timeout","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-18T20:57:37+05:30","message":"Could not check if there are updates available"}
+{"level":"info","time":"2026-06-18T20:57:39+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-18T20:57:44+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-06-18T20:57:44+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-18T20:57:44+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-18T20:57:44+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-06-18T20:57:47+05:30","message":"Got sorted gateways: [vpn13-ams.riseup.net vpn04-ams.riseup.net vpn06-ams.riseup.net vpn19-ams.riseup.net vpn20-par.riseup.net vpn21-par.riseup.net vpn05-par.riseup.net vpn14-par.riseup.net vpn03-par.riseup.net vpn07-par.riseup.net vpn11-par.riseup.net vpn02-par.riseup.net vpn08-par.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-06-18T20:57:48+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-18T20:57:49+05:30","message":"Got best gateway [{vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-18T20:57:49+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-18T20:57:52+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn13-ams.riseup.net","port":"1194","time":"2026-06-18T20:58:57+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","time":"2026-06-18T21:56:51+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-18T21:56:53+05:30","message":"Stopping OpenVPN"}
+{"level":"info","time":"2026-06-18T21:56:56+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-06-18T21:56:56+05:30","message":"Stopping firewall"}
+{"level":"error","error":"write tcp 127.0.0.1:6061->127.0.0.1:38500: write: broken pipe","time":"2026-06-18T21:56:58+05:30","message":"Got error while stopping openvpn from management interface"}
+{"level":"info","time":"2026-06-18T21:56:58+05:30","message":"Stopping OpenVPN"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-06-26T01:19:08+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-06-26T01:19:08+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-06-26T01:19:10+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-06-26T01:19:10+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-06-26T01:19:12+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-06-26T01:19:16+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-06-26T01:19:16+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-06-26T01:19:16+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-06-26T01:19:16+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-06-26T01:19:19+05:30","message":"Got sorted gateways: [vpn04-ams.riseup.net vpn06-ams.riseup.net vpn13-ams.riseup.net vpn19-ams.riseup.net vpn08-par.riseup.net vpn03-par.riseup.net vpn20-par.riseup.net vpn21-par.riseup.net vpn05-par.riseup.net vpn02-par.riseup.net vpn07-par.riseup.net vpn14-par.riseup.net vpn11-par.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-06-26T01:19:39+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-06-26T01:19:41+05:30","message":"Got best gateway [{vpn04-ams.riseup.net 51.15.9.205 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-06-26T01:19:41+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-06-26T01:19:44+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn04-ams.riseup.net","port":"1194","time":"2026-06-26T01:20:50+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-07-01T21:32:12+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-07-01T21:32:12+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-07-01T21:32:13+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-07-01T21:32:13+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-07-01T21:32:16+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-07-01T21:32:19+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-07-01T21:32:19+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-07-01T21:32:19+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-07-01T21:32:19+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-07-01T21:32:23+05:30","message":"Got sorted gateways: [vpn13-ams.riseup.net vpn19-ams.riseup.net vpn06-ams.riseup.net vpn04-ams.riseup.net vpn05-par.riseup.net vpn21-par.riseup.net vpn11-par.riseup.net vpn03-par.riseup.net vpn02-par.riseup.net vpn08-par.riseup.net vpn07-par.riseup.net vpn14-par.riseup.net vpn20-par.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn12-nyc.riseup.net vpn22-mia.riseup.net vpn23-mia.riseup.net]"}
+{"level":"info","time":"2026-07-01T21:33:33+05:30","message":"Getting OpenVPN client certificate"}
+{"level":"info","time":"2026-07-01T21:33:34+05:30","message":"Got best gateway [{vpn13-ams.riseup.net 51.158.144.31 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn19-ams.riseup.net 163.172.211.109 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn} {vpn06-ams.riseup.net 51.158.144.32 Amsterdam Amsterdam NL [53 80 1194] [tcp udp] map[] openvpn}]"}
+{"level":"info","time":"2026-07-01T21:33:34+05:30","message":"Starting firewall"}
+{"level":"info","time":"2026-07-01T21:33:38+05:30","message":"Starting OpenVPN"}
+{"level":"info","gateway":"vpn13-ams.riseup.net","port":"1194","time":"2026-07-01T21:34:43+05:30","message":"Sucessfully connected to gateway"}
+{"level":"info","logFile":"/home/Woeter/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-07-07T18:34:07+05:30","message":"Enabling logging"}
+{"level":"info","time":"2026-07-07T18:34:07+05:30","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-07-07T18:34:09+05:30","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-07-07T18:34:09+05:30","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-07-07T18:34:12+05:30","message":"Stopping firewall"}
+{"level":"warn","error":"exit status 127","cmd":"/usr/sbin/bitmask-root firewall stop","time":"2026-07-07T18:34:19+05:30","message":"Error running bitmask-root: \"Error executing command as another user: Not authorized\n\nThis incident has been reported.\""}
+{"level":"warn","error":"exit status 127","time":"2026-07-07T18:34:19+05:30","message":"Could not stop firewall"}
+{"level":"info","time":"2026-07-07T18:34:19+05:30","message":"Using transport openvpn"}
+{"level":"info","transport":"openvpn","time":"2026-07-07T18:34:19+05:30","message":"Setting transport"}
+{"level":"info","time":"2026-07-07T18:34:19+05:30","message":"Enabled UDP"}
+{"level":"info","time":"2026-07-07T18:34:19+05:30","message":"Fetching gateways..."}
+{"level":"info","time":"2026-07-07T18:34:22+05:30","message":"Close: cleanup and vpn shutdown..."}
+{"level":"info","time":"2026-07-07T18:34:22+05:30","message":"Stopping firewall"}
+{"level":"info","time":"2026-07-07T18:34:22+05:30","message":"Got sorted gateways: [vpn06-ams.riseup.net vpn19-ams.riseup.net vpn04-ams.riseup.net vpn13-ams.riseup.net vpn21-par.riseup.net vpn03-par.riseup.net vpn08-par.riseup.net vpn11-par.riseup.net vpn20-par.riseup.net vpn02-par.riseup.net vpn07-par.riseup.net vpn14-par.riseup.net vpn05-par.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn12-nyc.riseup.net vpn23-mia.riseup.net vpn22-mia.riseup.net]"}
+{"level":"warn","error":"exit status 127","cmd":"/usr/sbin/bitmask-root firewall stop","time":"2026-07-07T18:34:23+05:30","message":"Error running bitmask-root: \"Error executing command as another user: Not authorized\n\nThis incident has been reported.\""}
+{"level":"warn","error":"exit status 127","time":"2026-07-07T18:34:23+05:30","message":"There was an error stopping the vpn"}

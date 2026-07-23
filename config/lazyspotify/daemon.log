@@ -1,0 +1,43 @@
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:18:47+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:3xKsf9qdS1CyvXSMEid6g8: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:18:48+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:3xKsf9qdS1CyvXSMEid6g8: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:18:50+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:3xKsf9qdS1CyvXSMEid6g8: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:18:51+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:3xKsf9qdS1CyvXSMEid6g8: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:03+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:6ADSaE87h8Y3lccZlBJdXH: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:04+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:6ADSaE87h8Y3lccZlBJdXH: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:06+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:6ADSaE87h8Y3lccZlBJdXH: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:07+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:6ADSaE87h8Y3lccZlBJdXH: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:14+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:3xKsf9qdS1CyvXSMEid6g8: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:15+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:3xKsf9qdS1CyvXSMEid6g8: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:16+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:3xKsf9qdS1CyvXSMEid6g8: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:18+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:3xKsf9qdS1CyvXSMEid6g8: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:53+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:2W70vgf87uyNB2XRpRDEES: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:56+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:2W70vgf87uyNB2XRpRDEES: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:19:57+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:2W70vgf87uyNB2XRpRDEES: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave
+time="2026-07-14T01:20:00+05:30" level=error msg="failed handling request play" error="failed loading context: failed loading current track (load context): failed setting stream for spotify:track:2W70vgf87uyNB2XRpRDEES: ALSA error at snd_pcm_open: Device or resource busy"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) [error.pcm] unable to open slave

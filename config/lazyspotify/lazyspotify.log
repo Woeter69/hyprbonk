@@ -1,0 +1,30 @@
+{"level":"error","error":"secret not found in keyring","time":"2026-07-14T01:15:37+05:30","caller":"github.com/dubeyKartikay/lazyspotify/core/auth/auth.go:37","message":"error getting token"}
+{"level":"error","error":"secret not found in keyring","time":"2026-07-14T01:15:37+05:30","caller":"github.com/dubeyKartikay/lazyspotify/spotify/client.go:24","message":"error getting spotify client"}
+{"level":"error","error":"secret not found in keyring","time":"2026-07-14T01:15:37+05:30","caller":"github.com/dubeyKartikay/lazyspotify/ui/v1/app/model.go:182","message":"failed to create spotify client"}
+{"level":"error","error":"secret not found in keyring","time":"2026-07-14T01:15:46+05:30","caller":"github.com/dubeyKartikay/lazyspotify/core/auth/auth.go:37","message":"error getting token"}
+{"level":"error","error":"secret not found in keyring","time":"2026-07-14T01:15:46+05:30","caller":"github.com/dubeyKartikay/lazyspotify/spotify/client.go:24","message":"error getting spotify client"}
+{"level":"error","error":"secret not found in keyring","time":"2026-07-14T01:15:46+05:30","caller":"github.com/dubeyKartikay/lazyspotify/ui/v1/app/model.go:182","message":"failed to create spotify client"}
+{"level":"error","time":"2026-07-14T01:18:47+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:18:48+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:18:50+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:18:51+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","error":"request failed after 3 retries. Last error: <nil>","path":"/player/play","time":"2026-07-14T01:18:51+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:108","message":"request failed"}
+{"level":"error","error":"failed to play track: daemon returned status 500","time":"2026-07-14T01:18:51+05:30","caller":"github.com/dubeyKartikay/lazyspotify/ui/v1/app/update.go:118","message":"failed to play tack"}
+{"level":"error","time":"2026-07-14T01:19:03+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:19:04+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:19:06+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:19:07+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","error":"request failed after 3 retries. Last error: <nil>","path":"/player/play","time":"2026-07-14T01:19:07+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:108","message":"request failed"}
+{"level":"error","error":"failed to play track: daemon returned status 500","time":"2026-07-14T01:19:07+05:30","caller":"github.com/dubeyKartikay/lazyspotify/ui/v1/app/update.go:118","message":"failed to play tack"}
+{"level":"error","time":"2026-07-14T01:19:14+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:19:15+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:19:16+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:19:18+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","error":"request failed after 3 retries. Last error: <nil>","path":"/player/play","time":"2026-07-14T01:19:18+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:108","message":"request failed"}
+{"level":"error","error":"failed to play track: daemon returned status 500","time":"2026-07-14T01:19:18+05:30","caller":"github.com/dubeyKartikay/lazyspotify/ui/v1/app/update.go:118","message":"failed to play tack"}
+{"level":"error","time":"2026-07-14T01:19:53+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:19:56+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:19:57+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","time":"2026-07-14T01:20:00+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:235","message":"request error"}
+{"level":"error","error":"request failed after 3 retries. Last error: <nil>","path":"/player/play","time":"2026-07-14T01:20:00+05:30","caller":"github.com/dubeyKartikay/lazyspotify/librespot/api_client.go:108","message":"request failed"}
+{"level":"error","error":"failed to play track: daemon returned status 500","time":"2026-07-14T01:20:00+05:30","caller":"github.com/dubeyKartikay/lazyspotify/ui/v1/app/update.go:118","message":"failed to play tack"}

@@ -1,0 +1,88 @@
+[2026-03-29 14:08:17.975] [info]  [AppEvents] App started
+[2026-03-29 14:08:18.180] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2026-03-29 14:08:18.887] [info]  [AppEvents] App ready
+[2026-03-29 14:08:18.888] [info]  [Cider] Application is Ready. Creating Window.
+[2026-03-29 14:09:15.720] [info]  [AppEvents] App started
+[2026-03-29 14:09:15.927] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2026-03-29 14:09:15.966] [info]  [AppEvents] App ready
+[2026-03-29 14:09:15.966] [info]  [Cider] Application is Ready. Creating Window.
+[2026-03-29 14:09:28.640] [info]  [AppEvents] App started
+[2026-03-29 14:09:28.862] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2026-03-29 14:09:28.914] [info]  [AppEvents] App ready
+[2026-03-29 14:09:28.915] [info]  [Cider] Application is Ready. Creating Window.
+[2026-03-29 14:09:56.490] [warn]  Cider exited.
+[2026-03-29 14:10:04.807] [info]  [AppEvents] App started
+[2026-03-29 14:10:05.008] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2026-03-29 14:10:05.061] [info]  [AppEvents] App ready
+[2026-03-29 14:10:05.061] [info]  [Cider] Application is Ready. Creating Window.
+[2026-03-29 14:10:18.812] [info]  [AppEvents] App started
+[2026-03-29 14:10:18.964] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2026-03-29 14:10:19.013] [info]  [AppEvents] App ready
+[2026-03-29 14:10:19.013] [info]  [Cider] Application is Ready. Creating Window.
+[2026-03-29 14:10:27.529] [warn]  Cider exited.
+[2026-03-29 14:10:31.802] [info]  [AppEvents] App started
+[2026-03-29 14:10:31.993] [info]  [PluginHandler] Loaded plugins: [
+  'chromecast.js',
+  'discordrpc.js',
+  'lastfm.js',
+  'menubar.js',
+  'mpris.js',
+  'playbackNotifications.js',
+  'raop.js',
+  'thumbar.js',
+  'webNowPlaying.js'
+]
+[2026-03-29 14:10:32.047] [info]  [AppEvents] App ready
+[2026-03-29 14:10:32.047] [info]  [Cider] Application is Ready. Creating Window.
+[2026-03-29 14:10:56.596] [warn]  Cider exited.
+[2026-03-29 14:10:57.961] [warn]  Cider exited.
